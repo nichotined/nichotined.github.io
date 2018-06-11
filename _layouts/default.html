@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-      <meta name="description" content="Nicholas Frederick Lagaunne">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="callMe" content="081368668543">
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:nicholas.frederich.lagaunne@gmail.com">Email</a></li>
-	        		<li><a href="https://github.com/nichotined">Github</a></li>
-              <li><a href="https://id.linkedin.com/in/nicholas-lagaunne-577ab0100">Linkedin</a></li>
-              <li><a href="https://www.facebook.com/nicholagaunne">Facebook</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+
+<head>
+  <meta name="description" content="Nicholas Frederick Lagaunne">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="callMe" content="081368668543">
+  <title>{{ page.title }}</title>
+  
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120745511-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120745511-1');
+  </script>
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/cv">CV</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+
+    {{ content }}
+
+  </div>
+  <!-- /.container -->
+  <footer>
+    <ul>
+      <li><a href="mailto:nicholas.frederich.lagaunne@gmail.com">Email</a></li>
+      <li><a href="https://github.com/nichotined">Github</a></li>
+      <li><a href="https://id.linkedin.com/in/nicholas-lagaunne-577ab0100">Linkedin</a></li>
+      <li><a href="https://www.facebook.com/nicholagaunne">Facebook</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
