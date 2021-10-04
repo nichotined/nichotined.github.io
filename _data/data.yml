@@ -42,7 +42,7 @@ career-profile:
     title: Background
     summary: |
       I'm a software development enthusiast, who loves to learn new things.
-      Currently, I had more than 6 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS.
+      Currently, I had more than 6 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS and expressJS. 
 education:
     - degree: 
       university: 
@@ -53,17 +53,7 @@ experiences:
       time: 2018 - Present
       company: Gojek, Jakarta - Indonesia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Working as QA where I do manual and automation testing.
     - role: Quality Engineer
       time: 2017 - 2018
       company: Black Berry Massanger, Jakarta - Indonesia
@@ -98,28 +88,6 @@ projects:
         link: "nichotined/appium-go-client"
         tagline: "A blueprint for appium client for golang programming language"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
@@ -130,7 +98,7 @@ skills:
       - name: Java & Kotlin
         level: 80%
 
-      - name: Javascript & React
+      - name: NodeJS, ReactJS, ExpressJS
         level: 70%
 
       - name: Golang
