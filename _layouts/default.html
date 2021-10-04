@@ -1,50 +1,25 @@
+---
+#Add "layout: compress" here to compress the html code
+---
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta name="description" content="Nicholas Frederick Lagaunne">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="callMe" content="081368668543">
-  <title>{{ page.title }}</title>
-  
-  <!-- link to main stylesheet -->
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120745511-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-120745511-1');
-  </script>
-
-</head>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include head.html %}
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-  </nav>
-  <div class="container">
+  <div class="wrapper">
+    {% include sidebar.html %}
 
-    {{ content }}
-
+    <div class="main-wrapper">
+        {{ content }}
+    </div>
   </div>
-  <!-- /.container -->
-  <footer>
-    <ul>
-      <li><a href="mailto:nicholas.frederich.lagaunne@gmail.com">Email</a></li>
-      <li><a href="https://github.com/nichotined">Github</a></li>
-      <li><a href="https://www.linkedin.com/in/nicholas-lagaunne/">Linkedin</a></li>
-    </ul>
-  </footer>
+
+  {% include footer.html %}
+
+{% include scripts.html %}
 </body>
 
 </html>
+
