@@ -8,23 +8,18 @@ sidebar:
 
     # Profile information
     name: Nicholas Frederich Lagaunne
-    tagline: QA Enginner
+    tagline: Experienced in Web Development and Software Testing
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: nicholas.frederich.lagaunne@gmail.com
+    email: nicholas.lagaunne@gmail.com
     phone: +6281368668543
-    website: blog.webjeda.com #do not add http://
+    website:
     linkedin: nicholas-lagaunne
     github: nichotined
     telegram: nichotined
-    gitlab:
-    bitbucket:
+    gitlab: awildings
     twitter: '@nichotined'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: Bahasa Indonesia
@@ -34,24 +29,20 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Gaming
         link:
 
-      - item: Snowboarding
+      - item: Music
         link:
 
-      - item: Cooking
+      - item: Watching
         link:
 
 career-profile:
-    title: Career Profile
+    title: Background
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm a software development enthusiast, who loves to learn new things.
+      Currently, I had more than 6 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS.
 education:
     - degree: 
       university: 
@@ -77,13 +68,15 @@ experiences:
       time: 2017 - 2018
       company: Black Berry Massanger, Jakarta - Indonesia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        As a quality engineer, I was doing manual and automation testing for 3rd party integration to BBM platform. It was not just integrating but also monitoring to ensure the quality and functionality working perfectly for users to use the application.
+        Some tools that helped me to do my work:
+          - Postman
+          - Charles Proxy
+          - Genymotion, Simulator
+          - Selenium and Appium with Python
+          - Google analytics
+          - Runscope
+          - Datadog
 projects:
     title: Projects
     intro: >
@@ -91,19 +84,19 @@ projects:
     assignments:
       - title: REST API
         link: "nichotined/api"
-        tagline: "A class-based library for API automation purposes written in Python"
+        tagline: "A class-based library for API automation purposes written in Python."
 
-      - title: Foodgrande - Australia
+      - title: Foodgrande
         link: "#"
-        tagline: "A web application to order food. Contributed on adding features and pages using ReactJS, NodeJS and Axios"
+        tagline: "A web application to order food. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
 
-      - title: Carolus - Indonesia
+      - title: Carolus
         link: "#"
-        tagline: "A web application to claim/reimburse. Contributed on adding features and pages using ReactJS, NodeJS and Axios"
+        tagline: "A web application to claim/reimburse. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
 
       - title: Go Appium Client
         link: "nichotined/appium-go-client"
-        tagline: "A blueprint for appium client for golang"
+        tagline: "A blueprint for appium client for golang programming language"
 
 publications:
     title: Publications
@@ -160,6 +153,9 @@ skills:
         
       - name: Vim
         level: 75%
+
+      - name: Appium & Selenium
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
