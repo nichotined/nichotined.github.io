@@ -3,7 +3,6 @@ markdown: kramdown
 title: My Resume
 theme_skin: blue
 
-
 sass:
   sass_dir: _sass
   style: compressed
