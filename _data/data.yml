@@ -3,119 +3,120 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Nicholas Frederich Lagaunne
-    tagline: Experienced in Web Development and Software Testing
-    avatar: profile.jpg
+  # Profile information
+  name: Nicholas Frederich Lagaunne
+  tagline: Experienced in Web Development and Software Testing
+  avatar: profile.jpg
 
-    # Sidebar links
-    email: nicholas.lagaunne@gmail.com
-    phone: +6281368668543
-    linkedin: nicholas-lagaunne
-    github: nichotined
-    telegram: nichotined
-    gitlab: awildings
-    twitter: '@nichotined'
+  # Sidebar links
+  email: nicholas.lagaunne@gmail.com
+  phone: +6281368668543
+  linkedin: nicholas-lagaunne
+  github: nichotined
+  telegram: nichotined
+  gitlab: awildings
+  twitter: "@nichotined"
 
-    languages:
-      - idiom: Bahasa Indonesia
-        level: Native
+  languages:
+    - idiom: Bahasa Indonesia
+      level: Native
 
-      - idiom: English
-        level: Professional
+    - idiom: English
+      level: Professional
 
-    interests:
-      - item: Gaming
-        link:
+  interests:
+    - item: Gaming
+      link:
 
-      - item: Music
-        link:
+    - item: Music
+      link:
 
-      - item: Watching
-        link:
+    - item: Watching
+      link:
 
 career-profile:
-    title: Background
-    summary: |
-      I'm a software development enthusiast, who loves to learn new things.
-      Currently, I had more than 6 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS and expressJS. 
+  title: Background
+  summary: |
+    I'm a software development enthusiast, who loves to try and learn new things.
+    Currently, I had more than 7 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS and expressJS.
 experiences:
-    - role: Quality Assurance Engineer
-      time: 2018 - Present
-      company: Gojek, Jakarta - Indonesia
-      details: |
-        Working as QA where I do manual and automation testing.
-    - role: Quality Engineer
-      time: 2017 - 2018
-      company: Black Berry Massanger, Jakarta - Indonesia
-      details: |
-        As a quality engineer, I was doing manual and automation testing for 3rd party integration to BBM platform.  
-        It was not just integrating but also monitoring to ensure the quality and functionality working perfectly for users to use the application.
-        Some tools that helped me to do my work:
-          - Postman
-          - Charles Proxy
-          - Genymotion, Simulator
-          - Selenium and Appium with Python
-          - Google analytics
-          - Runscope
-          - Datadog
+  - role: Quality Assurance Engineer
+    time: 2018 - Present
+    company: Gojek, Jakarta - Indonesia
+    details: |
+      For the past 2 years, I've been leading the quality for a team that consists of 9 members (4 Mobile dev, 3 Backend, 1 Product Manager, 1 Tech Lead, and 1 Quality Assurance).
+      We handle the ordering system in platform level, where other team relies on our services to show their order such as History Order, Active Order, and Invoice.
+  - role: Quality Engineer
+    time: 2017 - 2018
+    company: Black Berry Massanger, Jakarta - Indonesia
+    details: |
+      As a quality engineer, I was doing manual and automation testing for 3rd party integration to BBM platform.  
+      It was not just integrating but also monitoring to ensure the quality and functionality working perfectly for users to use the application.
+      Some tools that helped me to do my work:
+        - Postman
+        - Charles Proxy
+        - Genymotion, Simulator
+        - Selenium and Appium with Python
+        - Google analytics
+        - Runscope
+        - Datadog
 projects:
-    title: Projects
-    intro: >
-      During my outside working hour, I tend to work on several side-projects
-    assignments:
-      - title: REST API
-        link: "nichotined/api"
-        tagline: "A class-based library for API automation purposes written in Python."
+  title: Projects
+  intro: >
+    During my outside working hour, I tend to work on several side-projects
+  assignments:
+    - title: REST API
+      link: "nichotined/api"
+      tagline: "A class-based library for API automation purposes written in Python."
 
-      - title: Foodgrande
-        link: "#"
-        tagline: "A web application to order food. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
+    - title: Food grande
+      link: "#"
+      tagline: "A web application to order food. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
 
-      - title: Carolus
-        link: "#"
-        tagline: "A web application to claim/reimburse. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
+    - title: Carolus
+      link: "#"
+      tagline: "A web application to claim/reimburse. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
 
-      - title: Go Appium Client
-        link: "nichotined/appium-go-client"
-        tagline: "A blueprint for appium client for golang programming language"
+    - title: Go Appium Client
+      link: "nichotined/appium-go-client"
+      tagline: "A blueprint for appium client for golang programming language"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 85%
+  toolset:
+    - name: Python
+      level: 85%
 
-      - name: Java & Kotlin
-        level: 80%
+    - name: Java & Kotlin
+      level: 80%
 
-      - name: NodeJS, ReactJS, ExpressJS
-        level: 70%
+    - name: NodeJS, ReactJS, ExpressJS
+      level: 70%
 
-      - name: Golang
-        level: 65%
+    - name: Golang
+      level: 60%
 
-      - name: HTML5 & CSS
-        level: 75%
+    - name: HTML5 & CSS
+      level: 75%
 
-      - name: Linux, Mac, Windows
-        level: 95%
+    - name: Linux, Mac, Windows
+      level: 95%
 
-      - name: Postman & Charles Proxy
-        level: 95%
+    - name: Postman & Charles Proxy
+      level: 95%
 
-      - name: Git & Terminal
-        level: 95%
+    - name: Git & Terminal
+      level: 95%
 
-      - name: Terminal
-        level: 80%
-        
-      - name: Vim
-        level: 75%
+    - name: Vim
+      level: 60%
 
-      - name: Appium & Selenium
-        level: 95%
+    - name: Appium & Selenium
+      level: 95%
+
+    - name: Cypress
+      level: 60%
