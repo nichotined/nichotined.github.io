@@ -49,6 +49,12 @@ experiences:
     details: |
       For the past 2 years, I've been leading the quality for a team that consists of 9 members (4 Mobile dev, 3 Backend, 1 Product Manager, 1 Tech Lead, and 1 Quality Assurance).
       We handle the ordering system in platform level, where other team relies on our services to show their order such as History Order, Active Order, and Invoice.
+      Some tools that helped me to do my work:
+        - Postman
+        - Charles Proxy
+        - Browserstack, Simulator
+        - Appium with Java/Kotlin
+        - Spanner, Postgres, SlackBot
   - role: Quality Engineer
     time: 2017 - 2018
     company: Black Berry Massanger, Jakarta - Indonesia
