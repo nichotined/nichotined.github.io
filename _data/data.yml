@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Nicholas Frederich Lagaunne
-  tagline: Experienced in Web Development and Software Testing
+  tagline: Software Engineer | QA Automation | 11+ Years Experience
   avatar: profile.jpg
 
   # Sidebar links
@@ -40,77 +40,85 @@ sidebar:
 career-profile:
   title: Background
   summary: |
-    I'm a software development enthusiast, who loves to try and learn new things.
-    Currently, I had more than 7 years of working experience in software testing especially in mobile application for both manual and automation. I also had experience in making web application and APIs using recent technology such as ReactJS and expressJS.
+    I'm a passionate software development enthusiast with over 11 years of experience in software testing,
+    specializing in mobile applications — both manual and automated testing. My expertise extends to testing
+    web and mobile applications and APIs within complex distributed systems.
+    I also have hands-on experience building web applications and APIs using modern technologies such as
+    ReactJS, NodeJS, and Golang, and I constantly seek to expand my knowledge and skills.
 experiences:
   - role: Quality Assurance Engineer
-    time: 2018 - Present
+    time: 2018 - 2025
     company: Gojek, Jakarta - Indonesia
     details: |
-      For the past 2 years, I've been leading the quality for a team that consists of 9 members (4 Mobile dev, 3 Backend, 1 Product Manager, 1 Tech Lead, and 1 Quality Assurance).
-      We handle the ordering system in platform level, where other team relies on our services to show their order such as History Order, Active Order, and Invoice.
-      Some tools that helped me to do my work:
-        - Postman
-        - Charles Proxy
-        - Browserstack, Simulator
-        - Appium with Java/Kotlin
+      Led quality for a cross-functional team handling the ordering system at platform level, where other
+      teams rely on our services to show orders such as History Order, Active Order, and Invoice.
+      Worked extensively on end-to-end automation, API testing, and performance validation.
+      Some tools that helped me do my work:
+        - Postman & Charles Proxy
+        - Browserstack, Simulator, Appium with Java/Kotlin
+        - Playwright for web automation
         - Spanner, Postgres, SlackBot
+        - Grafana, Datadog for monitoring
   - role: Quality Engineer
     time: 2017 - 2018
-    company: Black Berry Massanger, Jakarta - Indonesia
+    company: BlackBerry Messenger, Jakarta - Indonesia
     details: |
-      As a quality engineer, I was doing manual and automation testing for 3rd party integration to BBM platform.  
-      It was not just integrating but also monitoring to ensure the quality and functionality working perfectly for users to use the application.
-      Some tools that helped me to do my work:
-        - Postman
-        - Charles Proxy
+      Performed manual and automation testing for 3rd party integrations to the BBM platform.
+      Monitored integrations to ensure quality and functionality were working perfectly for end users.
+      Some tools that helped me do my work:
+        - Postman & Charles Proxy
         - Genymotion, Simulator
         - Selenium and Appium with Python
-        - Google analytics
-        - Runscope
-        - Datadog
+        - Google Analytics, Runscope, Datadog
 projects:
   title: Projects
   intro: >
-    During my outside working hour, I tend to work on several side-projects
+    During my outside working hours, I tend to work on several side-projects
   assignments:
-    - title: REST API
-      link: "nichotined/api"
-      tagline: "A class-based library for API automation purposes written in Python."
+    - title: Repeater
+      link: "https://github.com/nichotined/repeater"
+      tagline: "A browser-use wrapper to automate repetitive browser tasks using AI-powered automation."
 
-    - title: Food grande
-      link: "#"
-      tagline: "A web application to order food. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
+    - title: Artemis
+      link: "https://github.com/nichotined/artemis"
+      tagline: "An automation wrapper library for building reusable, structured automation frameworks."
 
-    - title: Carolus
-      link: "#"
-      tagline: "A web application to claim/reimburse. Contributed on adding features and pages using ReactJS, NodeJS and Axios."
+    - title: Playwright Page Object Model
+      link: "https://github.com/nichotined/playwright-page-object-model"
+      tagline: "Implementation of Playwright with Page Object Model (POM) pattern for scalable web automation."
 
     - title: Go Appium Client
-      link: "nichotined/appium-go-client"
-      tagline: "A blueprint for appium client for golang programming language"
+      link: "https://github.com/nichotined/appium-go-client"
+      tagline: "A blueprint for an Appium client for the Golang programming language."
+
+    - title: REST API
+      link: "https://github.com/nichotined/api"
+      tagline: "A class-based library for API automation purposes written in Python."
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
     - name: Python
-      level: 85%
+      level: 90%
 
-    - name: Java & Kotlin
-      level: 80%
+    - name: Playwright & Selenium
+      level: 95%
+
+    - name: Appium (Java/Kotlin/Python)
+      level: 95%
+
+    - name: Golang
+      level: 70%
 
     - name: NodeJS, ReactJS, ExpressJS
       level: 70%
 
-    - name: Golang
-      level: 60%
+    - name: Java & Kotlin
+      level: 80%
 
     - name: HTML5 & CSS
       level: 75%
-
-    - name: Linux, Mac, Windows
-      level: 95%
 
     - name: Postman & Charles Proxy
       level: 95%
@@ -118,11 +126,11 @@ skills:
     - name: Git & Terminal
       level: 95%
 
-    - name: Vim
-      level: 60%
-
-    - name: Appium & Selenium
+    - name: Linux, Mac, Windows
       level: 95%
 
-    - name: Cypress
-      level: 60%
+    - name: Grafana & Datadog
+      level: 75%
+
+    - name: Docker & CI/CD
+      level: 70%
