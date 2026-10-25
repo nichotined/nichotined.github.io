@@ -1,16 +1,29 @@
-name: Nicholas Frederick
+title: Nicholas Frederich Lagaunne
+description: Lead SDET with 11+ years in test automation. Builder of Today Anime and Nexus Portal. Available for software testing, automation and development work.
+url: https://nichotined.github.io
+lang: en
+email: nicholas.lagaunne@gmail.com
+
+author:
+  name: Nicholas Frederich Lagaunne
+  url: https://nichotined.github.io/about-me/
+
+social:
+  name: Nicholas Frederich Lagaunne
+  links:
+    - https://github.com/nichotined
+    - https://www.linkedin.com/in/nicholas-lagaunne
+
+# Paste the content value of Google Search Console's HTML-tag verification here.
+# webmaster_verifications:
+#   google: XXXXXXXX
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 markdown: kramdown
-title: My Resume
-theme_skin: blue
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-compress-site: yes
-
-encoding: "utf-8"
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

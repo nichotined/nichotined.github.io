@@ -1,0 +1,33 @@
+# Apps shown on the landing page. Add a new entry to show another card.
+- name: Today Anime
+  icon: /assets/images/today-anime-icon.png
+  status: Live on Google Play
+  status_class: chip-violet
+  platform: Android
+  description: Discover anime. Browse what's airing, find new shows and keep up with anime news, all in one app.
+  media_class: media-anime
+  images:
+    - src: /assets/images/today-anime-home.jpg
+      alt: Today Anime home screen with trending and highest-rated anime
+    - src: /assets/images/today-anime-seasonal.jpg
+      alt: Today Anime seasonal screen with season and format filters
+  primary:
+    label: Get it on Google Play
+    url: https://play.google.com/store/apps/details?id=com.nichotined.todayanime&hl=en
+
+- name: Nexus Portal
+  status: Private · access on request
+  status_class: chip-blue
+  platform: Desktop / web
+  description: "An all-in-one portal for your workflow: note taking, AI chat and a central hub for your MCP servers. It runs on your own machine."
+  tags: [Workflow, Notes, AI chat, MCP hub]
+  media_class: media-nexus
+  images:
+    - src: /assets/images/nexus-portal.jpg
+      alt: Nexus Portal integrations page listing MCP servers and plugins
+  primary:
+    label: Learn more
+    url: /nexus-portal/
+  secondary:
+    label: Request access
+    url: mailto:nicholas.lagaunne@gmail.com?subject=Nexus%20Portal%20access
